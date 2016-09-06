@@ -14,7 +14,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
-
+gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency', branch: '3-1-stable'
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: '3-1-stable'
 
 
 group :development, :test do
